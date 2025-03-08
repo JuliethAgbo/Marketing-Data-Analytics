@@ -3,12 +3,12 @@
 ## Overview
 This project aims to analyze customer data and build a predictive model to determine whether a customer will subscribe to a term deposit. The dataset comes from a banking institution and contains information about customer transactions, loans, and personal details like job, marital status, and education. The dataset was cleaned, pre-processed, and used to build a Decision Tree Classifier, with its performance optimized using GridSearchCV.
 ## Problem Statement 
-Banks run marketing campaigns to encourage customers to subscribe to term deposits, but targeting the right customers efficiently results in a challenge. This project aims to solve the problem by developing a machine learning model that can increase conversion rates and reduce waste of resources
+Banks run marketing campaigns to encourage customers to subscribe to term deposits, but targeting the right customers efficiently results in a challenge. This project aims to solve the problem by developing a machine learning model that can increase conversion rates and reduce the waste of resources
 
 Total Dataset: 45,210 rows and 15 columns
 
 ## Data Analytics Methodology
- 1.	Data Cleaning & Preprocessing involves Reading the dataset using Pandas, Converting categorical variables into numerical form, and Split the data into training and testing sets.
+ 1.	Data Cleaning & Preprocessing which involves Reading the dataset using Pandas, Converting categorical variables into numerical form, and Splitting the data into training and testing sets.
 2.	Model Training- Used GridsearchCV for hyperparameter tuning and used the decision tree classifier as the model estimator
 3.	Evaluation Matrix - The evaluation matrix was created by using a Classification Report, and a Confusion Matrix
 
