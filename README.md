@@ -1,39 +1,26 @@
 ## Marketing-Data-Analytics
 
 ## Overview
-This project analyzes a marketing dataset using machine learning techniques to predict customer behaviors. The dataset comes from a banking institution and contains information about customer transactions, loans, and previous interactions.
+This project aims to analyze customer data and build a predictive model to determine whether a customer will subscribe to a term deposit. The dataset comes from a banking institution and contains information about customer transactions, loans, and personal details like job, marital status, and education. The dataset was cleaned, pre-processed, and used to build a Decision Tree Classifier, with its performance optimized using GridSearchCV.
 ## Problem Statement 
-The goal of this analysis is to predict whether a customer will subscribe to a term deposit based on their financial history and previous interactions with the bank. This will help in targeting the right customers for marketing campaigns.
-# Dataset
-The dataset used in this project is Bank.csv, which contains the following key columns:
-balance: Customer account balance
-default: Whether the customer has credit in default (yes/no)
-housing: Whether the customer has a housing loan (yes/no)
-loan: Whether the customer has a personal loan (yes/no)
-previous: Number of previous contacts
-# Total Dataset: 45,210
+Banks run marketing campaigns to encourage customers to subscribe to term deposits, but targeting the right customers efficiently results in a challenge. This project aims to solve the problem by developing a machine learning model that can increase conversion rates and reduce waste of resources
+
+Total Dataset: 45,210
 
 ## Data Analytics Methodology
-# 1.	Data Cleaning & Preprocessing:
+ 1.	Data Cleaning & Preprocessing:
 * Read the dataset using Pandas
-* Converted categorical variables into numerical form using OrdinalEncoder().
+* Converted categorical variables into numerical form 
 * Split the data into training and testing sets.
-# 2.	Model Training
-* Trained a Decision Tree Classifier to predict customer subscription.
-* Used GridSearchCV for hyperparameter tuning.
-3.	Evaluation Metric
-  The evaluation metrix was created by 
-o	Classification Report
-o	Confusion Matrix
-Results & Findings
-The Decision Tree model was evaluated using classification metrics. The confusion matrix and classification report provided insights into the model’s performance.
-Future Improvements
-•	Try other machine learning models like Random Forest or Logistic Regression.
-•	Perform feature selection to improve accuracy.
-•	Implement cross-validation for better generalization.
-How to Use This Repository
-1.	Clone the repository:
-git clone <repository-url>
-2.	Install dependencies:
-pip install -r requirements.txt
-3.	Run the notebook using Jupyter:
+2.	Model Training
+Used GridsearchCV for hyperparameter tuning and used the decision tree classifier as the model estimator
+
+3.	Evaluation Matrix
+  The evaluation matrix was created by using a Classification Report, and Confusion Matrix
+
+## Key findings & Result
+
+1.	The initial Decision Tree model achieved 83% accuracy in predicting customer subscription. A further optimization was carried out while ensuring we do not overfit the model
+2.	After hyperparameter tuning, the optimized model improved to 88% accuracy demonstrating the importance of fine-tuning for a better predictions
+3.	At each stage of training the dataset, the model’s performance was evaluated using a confusion matrix and classification report, ensuring a balanced approach to precision and recall.
+
