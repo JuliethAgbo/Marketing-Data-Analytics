@@ -8,15 +8,9 @@ Banks run marketing campaigns to encourage customers to subscribe to term deposi
 Total Dataset: 45,210 rows and 15 columns
 
 ## Data Analytics Methodology
- 1.	Data Cleaning & Preprocessing:
-* Read the dataset using Pandas
-* Converted categorical variables into numerical form 
-* Split the data into training and testing sets.
-2.	Model Training
-Used GridsearchCV for hyperparameter tuning and used the decision tree classifier as the model estimator
-
-3.	Evaluation Matrix
-  The evaluation matrix was created by using a Classification Report, and Confusion Matrix
+ 1.	Data Cleaning & Preprocessing involves Reading the dataset using Pandas, Converting categorical variables into numerical form, and Split the data into training and testing sets.
+2.	Model Training- Used GridsearchCV for hyperparameter tuning and used the decision tree classifier as the model estimator
+3.	Evaluation Matrix - The evaluation matrix was created by using a Classification Report, and a Confusion Matrix
 
 ## Key findings & Result
 
