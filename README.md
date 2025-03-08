@@ -5,7 +5,7 @@ This project aims to analyze customer data and build a predictive model to deter
 ## Problem Statement 
 Banks run marketing campaigns to encourage customers to subscribe to term deposits, but targeting the right customers efficiently results in a challenge. This project aims to solve the problem by developing a machine learning model that can increase conversion rates and reduce waste of resources
 
-Total Dataset: 45,210
+Total Dataset: 45,210 rows and 15 columns
 
 ## Data Analytics Methodology
  1.	Data Cleaning & Preprocessing:
